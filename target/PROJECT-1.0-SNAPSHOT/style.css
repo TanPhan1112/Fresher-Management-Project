@@ -1,0 +1,58 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 7, 2016, 3:26:23 PM
+    Author     : TAN
+*/
+.menu{
+    height: 50px;
+}
+.navbar{
+    background-color: #6f5499;
+    border-color: #0269c2;
+}
+.navbar-default{
+    background-image: none; 
+}
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #ffffff;
+    background-color: transparent;
+}
+.navbar-default .navbar-brand>a:hover {
+    color: #ffffff;
+    background-color: transparent;
+}
+.body-img {
+    background-image: url("image/IoT.png");
+    height: 1080px;
+    background-repeat: no-repeat;           
+}
+#myPleaseWait{
+    margin-top: 300px;
+}
+.addStudent{
+    margin-top: 100px;
+    padding-top: 230px;
+    background-image: url("image/pencil.jpg");
+    background-repeat: no-repeat; 
+    height: 914px;
+}
+.signin{
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+h3{/*student_delete.jsp*/
+    margin-top: -10px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+.addSt{/*student_add.jsp*/
+    margin-top: 50px;
+}
